@@ -14,12 +14,16 @@ public class EchoServer {
      */
     public static void main(String[] args) {
 
+        /*
         if (args.length < 1) {
             System.err.println("provide server port as command line arg");
             System.exit(1);
         }
 
         final int PORT_NUMBER = Integer.parseInt(args[0]);
+        */
+
+        final int PORT_NUMBER = 8004;
         System.out.println("Server listening on port " + PORT_NUMBER);
 
         // sockets and streams close automatically when established in a try-resources statement
